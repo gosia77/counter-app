@@ -19,7 +19,7 @@ function Counter() {
 
 
     return (
-        <div>
+        <div className="container">
             <p className="display-count">{count}</p>
             <button className="counter-button" onClick={increment}>Increment</button>
             <button className="counter-button" onClick={reset}>Reset</button>
